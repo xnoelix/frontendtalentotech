@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+     <link rel="stylesheet" href="../css/prentrega.css"/>
+    <title>Tienda de SNOOPY</title>
+  </head>
+   <body>
+    <header>
+      <h1>Tienda de SNOOPY</h1>
+      <div class="div-logo">
+        <a class="logo" href="./index.html">LOGO</a>
+      </div>
+    </header>
+
+    <nav class="header-nav">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#reseñas">Reseñas</a></li>
+        <li><a href="pages/contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="inicio">
+        <h2 class="section-title">Bienvenidos</h2>
+        <p>La tienda mas Cute que vas a ver en tu vida</p>
+      </section>
+
+      <section id="productos">
+        <h2 class="section-title text-secondary">Productos</h2>
+        <div class="contenedor-productos">
+          <div class="card text-secondary">
+            <img src="./img/images (1).jpg" alt="" />
+            <h3>Peluche</h3>
+            <p>Un peluche adorable para todos los amantes de los personajes de Snoopy.</p>
+            <p> precio: $19.99</p>   
+            <button class="btn bg-secondary text-dark carrito">Agregar al carrito</button> 
+          </div>
+
+          <div class="card text-secondary">
+            <img src="./img/images (2).jpg" alt="" />
+            <h3>Billetera</h3>
+            <p>Una billetera estilo Snoopy para llevar tus pertenencias con estilo.</p>
+            <p> precio: $29.99</p>   
+            <button class="btn bg-secondary text-dark carrito">Agregar al carrito</button> 
+          </div>
+
+          <div class="card text-secondary">
+            <img src="./img/images (3).jpg" alt="" />
+            <h3>Cartera/bolso</h3>
+            <p>Una cartera o bolso con diseño de Snoopy para cualquier ocasión.</p>
+            <p> precio: $39.99</p>
+            <button class="btn bg-secondary text-dark carrito">Agregar al carrito</button>
+          </div>
+
+          <div class="card text-secondary">
+            <img src="./img/images (4).jpg" alt="" />
+            <h3>Taza</h3>
+            <p>taza/ mug con diseño de Snoopy para disfrutar tus bebidas favoritas.</p>
+            <p> precio: $39.99</p>   
+            <button class="btn bg-secondary text-dark carrito">Agregar al carrito</button>
+          </div>
+
+        </div>
+      </section>
+
+      <section id="reseñas">
+        <h2>Reseñas</h2>
+
+        <div class="grid-reseñas">
+          <div class="reseña">Excelente producto!!!, Me llego justo a tiempo</div>
+
+          <div class="reseña">la taza es de muy buena calidad</div>
+
+          <div class="reseña">Lo recomiendo!</div>
+        </div>
+      </section>
+
+      <section id="contacto">
+        <h2>Contacto</h2>
+
+        <form action="https://formspree.io/f/mlgzyloy" method="POST">
+          <input type="text" name="nombre" placeholder="Nombre" />
+
+          <input type="email" name="email" placeholder="Email" />
+
+          <textarea name="mensaje"></textarea>
+
+          <button class="btn bg-secondary text-dark"></button>Enviar</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>Sitio web realizado por Noe para Talento Tech</p>
+      <nav>
+        <ul class="footer-list">
+           <li><img src="./img/whatsapp.png" alt="WhatsApp"></li>
+           <li><img src="./img/instagram.png" alt="Instagram"></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
